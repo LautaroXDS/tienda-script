@@ -12,7 +12,7 @@ productos.forEach(product => {
   if (isNaN(priceNum)) return;
 
   // Calcular precio transferencia
-  const transferencia = priceNum * 0.75; // <-- tu lógica
+  const transferencia = priceNum * 2; // <-- tu lógica
 
   // Crear un <div> para mostrarlo
   const info = document.createElement("div");
@@ -106,4 +106,5 @@ product.forEach(product => {
     media.insertAdjacentElement("afterend", info);
   }
 });
+
 
